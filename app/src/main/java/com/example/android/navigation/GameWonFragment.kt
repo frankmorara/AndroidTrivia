@@ -39,7 +39,7 @@ class GameWonFragment : Fragment() {
                 "NumQuestions:${args.numQuestions}", Toast.LENGTH_SHORT)
             .show()
         binding.nextMatchButton.setOnClickListener {
-            view?.findNavController()?.navigate(R.id.action_gameWonFragment_to_gameFragment)
+            view?.findNavController()?.navigate(GameWonFragmentDirections.actionGameWonFragmentToGameFragment())
         }
 
         return binding.root
