@@ -22,7 +22,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
                 <fragment
-                     android:id="@+id/homefragment"
+                    android:id="@+id/homefragment"
                     android:name="com.example.android.navigation.TitleFragment"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
